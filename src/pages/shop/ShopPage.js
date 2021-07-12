@@ -3,7 +3,7 @@ import { Route } from "react-router-dom";
 import Collection from "../collection/Collection";
 import CollectionOverview from "../../components/collection-overview/CollectionOverview";
 
-const ShopPage = ({ match }) => {
+const Shoppage = ({ match }) => {
     return (
         <div className="shop-page">
             <Route
@@ -19,4 +19,4 @@ const ShopPage = ({ match }) => {
     );
 };
 
-export default ShopPage;
+export default Shoppage;

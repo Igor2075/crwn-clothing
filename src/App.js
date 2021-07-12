@@ -4,8 +4,8 @@ import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 import "./App.css";
 
-import HomePage from "./pages/homepage/HomePage";
-import ShopPage from "./pages/shop/ShopPage";
+import Homepage from "./pages/homepage/Homepage";
+import Shoppage from "./pages/shop/Shoppage";
 import SignInSignUp from "./pages/sign-in-sign-up/SignInSignUp";
 import Checkout from "./pages/checkout/Checkout";
 
@@ -38,8 +38,8 @@ function App(props) {
         <div>
             <Header />
             <Switch>
-                <Route exact path="/" component={HomePage} />
-                <Route path="/shop" component={ShopPage} />
+                <Route exact path="/" component={Homepage} />
+                <Route path="/shop" component={Shoppage} />
                 <Route
                     exact
                     path="/signin"
