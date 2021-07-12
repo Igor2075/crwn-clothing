@@ -7,7 +7,7 @@ import "./App.css";
 import Homepage from "./pages/homepage/homepage";
 import Shoppage from "./pages/shop/shoppage";
 import SignInSignUp from "./pages/sign-in-sign-up/signinsignup";
-import Checkout from "./pages/checkout/Checkout";
+import Checkout from "./pages/checkout/checkout";
 
 import Header from "./components/header/Header";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
